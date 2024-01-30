@@ -23,6 +23,7 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #0C70AC;
+    border-bottom: 1px solid var(--text-color)
 }
 
 .nav-list {
@@ -43,8 +44,13 @@ body {
 .nav-link:hover,
 .nav-link:focus {
     color: var(--hover-color);
+}
 
+.introduce {
+    background-color: var(--nav-color);
+    color: var(--text-color);
+}
 
-
-
+.introduce-wrap {
+     display: flex;
 }
