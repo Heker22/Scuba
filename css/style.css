@@ -2,9 +2,9 @@
     --hover-color: #F4DE1F;
     --nav-color: #0C70AC;
     --text-color: #FFFFFF;
-    --title-color: #0000;
+    --title-color: #000;
     --link-color: #7C7C7C;
-    --link-color: #001C2D;
+    --footer-color: #001C2D;
     --article-background-color: #E6E6E6;
 }
 
@@ -65,9 +65,107 @@ body {
 .introduce-title {
     font-size: 64px;
     font-weight: 700;
+    width: 700px;
+    margin-bottom: 20px;
 }
-.introduce-text{
+
+.introduce-text {
+    font-weight: 700;
+    font-size: 32px;
+    opacity: 0.5;
+}
+
+.destinations {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.destinations-title {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.destinations-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destinations-item {
+    text-align: center;
 
 
-    
+}
+
+.destinations-subtitle {
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.destinations-text {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.destinations-link {
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: underline;
+    color: var(--link-color);
+    text-transform: uppercase;
+}
+
+.blog {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--article-background-color);
+}
+
+.blog-title {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-article {
+    background-color: var(--text-color);
+    width: 520px;
+    border-radius: 15px;
+}
+
+.article-wrap {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+.blog-word {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--link-color);
+}
+
+.blog-subtitle {
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--title-color);
+}
+
+.blog-text {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--link-color);
 }
