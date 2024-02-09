@@ -169,3 +169,39 @@ body {
     font-size: 20px;
     color: var(--link-color);
 }
+
+.footer {
+    padding-top: 75px;
+    padding-bottom: 80px;
+    background-color: var(--footer-color);
+    color: var(--text-color);
+}
+
+.footer-wrap-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.footer-item-wrap{
+    margin-bottom: 50px;
+}
+.footer-link-wrap {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.footer-list-img{
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+width: 500px;
+}
+.footer-item{
+    flex-basis: calc((100% - 50px) / 3);
+}
