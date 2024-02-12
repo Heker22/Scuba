@@ -1,0 +1,137 @@
+:root {
+    --hover-color: #F4DE1F;
+    --nav-color: #0C70AC;
+    --text-color: #FFFFFF;
+    --title-color: #000;
+    --link-color: #7C7C7C;
+    --footer-color: #001C2D;
+    --article-background-color: #E6E6E6;
+}
+
+body {
+    color: var(--title-color);
+    font-family: "Quicksand", sans-serif;
+}
+
+.container {
+    width: 1650px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #0C70AC;
+    border-bottom: 1px solid var(--text-color)
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 1075px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    font-family: "Inter", sans-serif;
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--hover-color);
+}
+
+.footer {
+    padding-top: 75px;
+    padding-bottom: 80px;
+    background-color: var(--footer-color);
+    color: var(--text-color);
+}
+
+.footer-wrap-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.footer-item-wrap {
+    margin-bottom: 50px;
+}
+
+.footer-link-wrap {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.footer-list-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 500px;
+}
+
+.footer-item {
+    flex-basis: calc((100% - 50px) / 3);
+}
+
+.footer-list-wrap {
+    display: flex;
+    width: 800px;
+    margin-bottom: 63px;
+}
+
+.footer-list-one {
+    margin-right: 239px;
+}
+
+.footer-desrciption {
+    padding-top: 63px;
+    border-top: 1px solid var(--text-color);
+}
+
+.footer-desrciption-text {
+    opacity: 0.5;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.article-img {
+    width: 600px;
+    margin-left: 60px;
+}
+
+.article-wrap {
+    display: flex;
+}
+.main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.article-title{
+text-align: center;
+margin-bottom: 60px;
+font-size: 44px;
+color: var(--footer-color);
+}
+.article-list{
+    list-style: circle;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.article-text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
