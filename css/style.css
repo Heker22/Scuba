@@ -13,11 +13,7 @@ body {
     font-family: "Quicksand", sans-serif;
 }
 
-.container {
-    width: 1650px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+
 
 .header {
     padding-top: 60px;

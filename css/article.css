@@ -131,7 +131,47 @@ color: var(--footer-color);
     margin-top: 30px;
 }
 .article-text{
+    margin-top: 30px;
     font-size: 24px;
     font-weight: 400;
     line-height: 1.5;
+}
+.article-turtle{
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.main-text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.article-word{
+    color: var(--title-color);
+    font-weight: 700;
+}
+.gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    
+}
+.gallery-img{ 
+width: 510px;
+height: 340px;
+}
+
+.item-text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+}
+.article-hotel{
+    margin: 0 auto;
+    display: block;
 }
