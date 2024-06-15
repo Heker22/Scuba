@@ -34,12 +34,15 @@ body {
     color: var(--text-color);
     font-size: 24px;
     font-weight: 700;
-
+    transition-property: color;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
 }
 
 .nav-link:hover,
 .nav-link:focus {
     color: var(--hover-color);
+
 }
 
 .introduce {
@@ -93,6 +96,14 @@ body {
 
 
 }
+.destination-img{
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.destination-img:hover{
+    transform: scale(1.1);
+}
 
 .destinations-subtitle {
     font-weight: 500;
@@ -137,6 +148,12 @@ body {
     background-color: var(--text-color);
     width: 520px;
     border-radius: 15px;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.blog-article:hover{
+    transform: scale(1.1);
 }
 
 .article-wrap {
@@ -183,40 +200,60 @@ body {
     font-size: 40px;
     margin-bottom: 50px;
 }
-.footer-item-wrap{
+.footer-img{
+transition-property: transform ;
+transition-duration: 300ms;
+transition-timing-function: ease;
+}
+.footer-img:hover{
+transform: scale(1.1);
+}
+
+.footer-item-wrap {
     margin-bottom: 50px;
 }
+
 .footer-link-wrap {
     font-weight: 600;
     font-size: 24px;
     color: var(--text-color);
+    transition-property: color;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+}
+.footer-link-wrap:hover{
+    color: var(--hover-color);
 }
 
-.footer-list-img{
-display: flex;
-flex-wrap: wrap;
-gap: 25px;
-width: 500px;
+.footer-list-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 500px;
 }
-.footer-item{
+
+.footer-item {
     flex-basis: calc((100% - 50px) / 3);
 }
-.footer-list-wrap{
-display: flex;
-width: 800px;
-margin-bottom: 63px;
-}
-.footer-list-one{
-margin-right: 239px;
-}
-.footer-desrciption{
-padding-top: 63px;
-border-top: 1px solid var(--text-color);
-}
-.footer-desrciption-text{
-opacity: 0.5;
-text-align: center;
-font-weight: 400;
-font-size: 20px;
+
+.footer-list-wrap {
+    display: flex;
+    width: 800px;
+    margin-bottom: 63px;
 }
 
+.footer-list-one {
+    margin-right: 239px;
+}
+
+.footer-desrciption {
+    padding-top: 63px;
+    border-top: 1px solid var(--text-color);
+}
+
+.footer-desrciption-text {
+    opacity: 0.5;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
