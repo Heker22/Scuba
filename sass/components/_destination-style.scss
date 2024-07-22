@@ -1,20 +1,10 @@
-:root {
-    --hover-color: #F4DE1F;
-    --nav-color: #0C70AC;
-    --text-color: #FFFFFF;
-    --title-color: #000;
-    --link-color: #7C7C7C;
-    --footer-color: #001C2D;
-    --article-background-color: #E6E6E6;
-}
-
 .maldives {
     padding-top: 60px;
 }
 
 .maldives-title {
     text-align: center;
-    color: var(--footer-color);
+    color: $footer-color;
     margin-bottom: 25px;
     margin-top: 25px;
     font-size: 45px;

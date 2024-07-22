@@ -1,0 +1,28 @@
+.introduce {
+    background-color: $nav-color;
+    color: $text-color;
+    padding-bottom: 170px;
+}
+
+.introduce-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.text-wrap {
+    margin-right: 437px;
+    margin-left: 150px;
+}
+
+.introduce-title {
+    font-size: 64px;
+    font-weight: 700;
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+.introduce-text {
+    font-weight: 700;
+    font-size: 32px;
+    opacity: 0.5;
+}
